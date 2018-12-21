@@ -10,6 +10,11 @@ define([],
     }
 
     function myAfterSubmit(context) {
+      var number = 2;
+      var stringNumber = '4';
+      console.log(getFromUtility(number));
+      console.log(getFromUtility(parseInt(stringNumber)));
+      console.log(getFromUtility(stringNumber));
     }
 
     function myBeforeLoad(context) {
