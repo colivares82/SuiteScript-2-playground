@@ -6,6 +6,7 @@
 define([],
   function () {
     function getFromUtility(param) {
+      return param * param
     }
 
     function myAfterSubmit(context) {
